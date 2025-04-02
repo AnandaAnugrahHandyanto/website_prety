@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <!-- Sidebar -->
+        <aside class="sidebar" data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+                </figure>
+                <div class="info-content">
+                    <h1 class="name" title="Richard hanrick">prety Angela Weku</h1>
+                    <p class="title">Web developer</p>
+                </div>
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+            <div class="sidebar-info_more">
+                <div class="separator"></div>
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+                            <a href="mailto:prety@example.com" class="contact-link">prety@example.com</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+                            <a href="tel:+628111696049" class="contact-link">+62 811-1696-049</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+                            <time datetime="1982-06-23">April 29, 2005</time>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+                            <address>Manado Pride</address>
+                        </div>
+                    </li>
+                </ul>
+                <div class="separator"></div>
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a href="https://open.spotify.com/user/31ebm4cccuoj4emot2al4c5jtzlq?si=0yAiWCeOTYOW3rgNGKkRQA" class="social-link">
+                            <img src="assets/images/spotify-icon.svg" alt="Spotify" width="20" height="20">
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://www.instagram.com/_pretyyya?igsh=MW9hZWsxdm5iZWhuaw==" class="social-link">
+                            <img src="assets/images/instagram-icon.svg" alt="Instagram" width="27" height="27">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <div class="main-content">
+            <!-- Navbar -->
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <button class="navbar-link active" data-nav-link>About</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Portfolio</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Contact</button>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- About -->
+            <article class="about active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+                <section class="about-text">
+                    <p>
+                        I'm prety Angela Weku, a 19-year-old tech enthusiast from West Java, Indonesia. I graduated from a
+                        vocational high school with a major in Computer and Network Engineering. I'm passionate about continuously
+                        improving my coding skills and exploring the world of technology.
+                    </p>
+                </section>
+
+                <!-- Services -->
+                <section class="service">
+                    <h3 class="h3 service-title">What I'm doing</h3>
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web development</h4>
+                                <p class="service-item-text">
+                                    High-quality development of sites at the professional level.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="./assets/images/icon-app.svg" alt="Mobile app icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Mobile apps</h4>
+                                <p class="service-item-text">
+                                    Professional development of applications for Android.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Resume -->
+                <section class="resume">
+                    <header>
+                        <h2 class="h2 article-title">Resume</h2>
+                    </header>
+                    <section class="timeline">
+                        <div class="title-wrapper">
+                            <div class="icon-box">
+                                <ion-icon name="book-outline"></ion-icon>
+                            </div>
+                            <h3 class="h3">Education</h3>
+                        </div>
+                        <ol class="timeline-list">
+                            <li class="timeline-item">
+                                <h4 class="h4 timeline-item-title">University Pamulang</h4>
+                                <span>2007 — 2008</span>
+                                <p class="timeline-text">Deskripsikan disini</p>
+                            </li>
+                            <li class="timeline-item">
+                                <h4 class="h4 timeline-item-title">University Pamulang</h4>
+                                <span>2006 — 2007</span>
+                                <p class="timeline-text">Deskripsikan disini</p>
+                            </li>
+                            <li class="timeline-item">
+                                <h4 class="h4 timeline-item-title">University Pamulang</h4>
+                                <span>2002 — 2004</span>
+                                <p class="timeline-text">Deskripsikan disini</p>
+                            </li>
+                        </ol>
+                    </section>
+            </article>
+
+            <!-- Portfolio -->
+            <article class="portfolio" data-page="portfolio">
+                <header>
+                    <h2 class="h2 article-title">Portfolio</h2>
+                </header>
+                <section class="projects">
+                    <ul class="filter-list">
+                    <div class="filter-select-box">
+                        <button class="filter-select" data-select>
+                            <div class="select-value" data-selecct-value>Select category</div>
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+                        </button>
+                    </div>
+
+                    <ul class="project-list">
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Personal Portfolio Website</h3>
+                                <p class="project-category">Web development</p>
+                            </a>
+                        </li>
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./assets/images/project-2.jpg" alt="arrival" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Android Custom Recovery</h3>
+                                <p class="project-category">Android Development</p>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <!-- Contact -->
+            <article class="contact" data-page="contact">
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+                <section class="contact-form">
+                    <h3 class="h3 form-title">Contact Form</h3>
+                    <form action="#" class="form" data-form>
+                        <div class="input-wrapper">
+                            <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                            <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+                        </div>
+                        <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+                        <button class="form-btn" type="submit" disabled data-form-btn>
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span>Send Message</span>
+                        </button>
+                    </form>
+                </section>
+            </article>
+        </div>
+    </main>
+
+    <!-- Custom JS link -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- Ionicon link -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const navLinks = document.querySelectorAll("[data-nav-link]");
+            const pages = document.querySelectorAll("article[data-page]");
+
+            navLinks.forEach(link => {
+                link.addEventListener("click", function () {
+                    // Hapus kelas 'active' dari semua navbar links
+                    navLinks.forEach(nav => nav.classList.remove("active"));
+                    // Tambahkan kelas 'active' ke link yang diklik
+                    this.classList.add("active");
+
+                    // Sembunyikan semua halaman
+                    pages.forEach(page => {
+                        page.classList.remove("active");
+                    });
+
+                    // Tampilkan halaman yang sesuai
+                    const targetPage = this.textContent.toLowerCase();
+                    const activePage = document.querySelector(`article[data-page="${targetPage}"]`);
+                    if (activePage) {
+                        activePage.classList.add("active");
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
