@@ -176,6 +176,7 @@
                             </li>
                         </ol>
                     </section>
+                </section>
             </article>
 
             <!-- Portfolio -->
@@ -185,14 +186,15 @@
                 </header>
                 <section class="projects">
                     <ul class="filter-list">
-                    <div class="filter-select-box">
-                        <button class="filter-select" data-select>
-                            <div class="select-value" data-selecct-value>Select category</div>
-                            <div class="select-icon">
-                                <ion-icon name="chevron-down"></ion-icon>
-                            </div>
-                        </button>
-                    </div>
+                        <div class="filter-select-box">
+                            <button class="filter-select" data-select>
+                                <div class="select-value" data-selecct-value>Select category</div>
+                                <div class="select-icon">
+                                    <ion-icon name="chevron-down"></ion-icon>
+                                </div>
+                            </button>
+                        </div>
+                    </ul>
 
                     <ul class="project-list">
                         <li class="project-item active" data-filter-item data-category="web development">
@@ -252,7 +254,7 @@
     <!-- Ionicon link -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+    
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const navLinks = document.querySelectorAll("[data-nav-link]");
